@@ -41,6 +41,9 @@ _Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https:/
  * Create folder from template: `dotnet new vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
    * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
  * Restore Node dependencies by running `npm install`
+ * Bundle files with the following commands:
+   * `webpack --config webpack.config.vendor.js --mode development`
+   * `webpack --config webpack.config.js --mode development`
 
 ## Start the application:
 You have two choices when it come at how your preffer to run it. You can either use the command line or the build-in run command.
@@ -82,13 +85,13 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 
 # License
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/content/LICENSE) 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE) 
 
 Copyright (c) 2016-2018 [Mark Pieszak](https://github.com/MarkPieszak)
 
 ### Follow me online:
 
-Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak](https://medium.com/@MarkPieszak) 
+Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak](https://medium.com/@MarkPieszak)
 
 ----
 
